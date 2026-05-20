@@ -80,7 +80,7 @@ Expected data layout:
 Clone the repository and set up a Python 3.10 environment:
 
 ```bash
-git clone <your-repo-url>.git
+git clone https://github.com/rakeshchinni77/radiology-report-generation-ai
 cd radiology-report-generation-ai
 python -m venv venv
 ```
