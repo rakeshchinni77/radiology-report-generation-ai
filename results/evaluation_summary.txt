@@ -1,0 +1,11 @@
+Radiology Report Evaluation Summary
+Mode: demo-fallback
+Samples: 3
+Evaluation duration: 0.04 seconds
+
+BLEU-1: 0.1454
+BLEU-2: 0.1192
+BLEU-3: 0.0866
+BLEU-4: 0.0649
+ROUGE-L: 0.4395
+CIDEr: 0.1185
