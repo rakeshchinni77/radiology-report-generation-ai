@@ -1,0 +1,33 @@
+venv/
+.venv/
+**pycache**/
+_.pyc
+_.pyo
+\*.pyd
+
+.git/
+.idea/
+.vscode/
+
+tmp/
+logs/
+data/raw/
+data/\*/images/
+data/sample/
+
+.env
+
+checkpoints/_.pt
+checkpoints/_.pth
+checkpoints/_.ckpt
+checkpoints/_.h5
+
+# Keep these in the build context for evaluation and artifact visibility:
+
+# tokenizer/
+
+# output/
+
+# results/
+
+# reports/

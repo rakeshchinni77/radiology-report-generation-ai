@@ -1,0 +1,82 @@
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and artifacts
+checkpoints/
+tokenizer/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.bin
+*.safetensors
+*.onnx
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Hugging Face caches and downloads
+.cache/
+.huggingface/
+hf_cache/
+transformers_cache/
+datasets/
+**/.cache/huggingface/
+**/.cache/torch/
+
+# CUDA / PyTorch temporary artifacts
+cuda_cache/
+*.cuda
+*.nvprof
+*.prof
+
+# Frontend / Node (if used for demos or notebooks)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Notebook and workspace metadata
+.vscode/
+.idea/
+
